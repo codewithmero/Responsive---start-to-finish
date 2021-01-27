@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 63.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: 1.7;
+  color: #1a1b1b;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200;
+  margin: 0 auto;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.justify-align {
+  text-align: justify;
+}
+
+.main-header {
+  position: absolute;
+  width: 100vw;
+  height: 8rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 14rem;
+}
+
+.main-nav {
+  display: none;
+}
+
+.hero {
+  height: 80vh;
+  background-image: linear-gradient(to right, #04a0a8, #16db93);
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hero .hero-img {
+  display: none;
+}
+
+.hero .hero-text .title-large {
+  font-size: 3rem;
+}
+
+.hero .hero-text .text-intro {
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+}
+
+.btn {
+  font-size: 1.4rem;
+}
